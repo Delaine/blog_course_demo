@@ -5,7 +5,7 @@ Who are we building it for?
 What features do we need to have?
 User Stories
 Model our Data
-Think through the pages we need in our application
+Think through the pages we need in our app.
 
 ## Answers to questions
 What are we building? We are building a personal site. A place where we can blog, share examples of our work, and have people contact us.
@@ -34,17 +34,17 @@ As a user, I want to be able to have visitors contact me through a form on my si
 As a user, I want visitors to be able to leave comments on my posts.
 ## Modeling our Data
 
-Post
+**Post**
 title:string
 content:text
 comment(Disqus)
 
-Project
+**Project**
 title:string
 description:text
 link:string
 
-User(Devise)
+**User** (Devise)
 
 
 
@@ -56,3 +56,5 @@ Posts#Show
 Projects#index
 Projects#Show
 Contact
+
+
